@@ -1,7 +1,9 @@
 @import './reset.css'; 
 
-/*------------------------------Landing pad only- background----*/
+/*TO TRY: APPLY THE MONTSERRAT JUST TO THE HEADER TO APPLY TO THE WHOLE BOX AND THEN JUST TARGET THE ONE TEXT THAT HAS THE DIFFERENT FONT: THE H1 IN THE CONTENT
+*/
 
+/*------------------------------Landing pad only- background----*/
 .App {
   background-image: url(https://blackrockdigital.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
   background-repeat: no-repeat;
@@ -127,9 +129,6 @@ p {
   .mobile-nav {
     display: inline-block;
   }
-
- 
- 
 }
 
 @media (max-width: 670px){

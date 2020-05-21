@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import Image from './mobileMenu.png';
 
+// !!THE TOGGLE ON THE HAMBURGER MENU IS NOT WORKING: WHERE IS IT GOING WRONG??!!
+
 class App extends Component{
   constructor(){
     super();
