@@ -56,7 +56,11 @@ class App extends Component{
           </nav>
         </header>
 
-        <div className="content"></div>
+        <div className="content">
+          <h1 className="box">Welcome To Our Studio!</h1>
+          <p className="box">It's Nice To Meet You</p>
+          <div className="box text-box">Tell Me More</div>
+        </div>
       </div>
     );
   }
