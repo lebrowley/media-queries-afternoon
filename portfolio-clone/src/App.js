@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 import Image from './mobileMenu.png';
 
-// !!THE TOGGLE ON THE HAMBURGER MENU IS NOT WORKING: WHERE IS IT GOING WRONG??!!
-
 class App extends Component{
   constructor(){
     super();
@@ -13,9 +11,18 @@ class App extends Component{
     }
   }
 
-  toggleMobileMenu = () => {
-    this.setState({isMobileMenuOpen: !this.state.MobileMenuOpen})
-  }
+//   toggleMobileMenu = () => {
+//     console.log(this.state.isMobileMenuOpen)
+//     this.setState((prevState) => {
+//     return  {
+//       isMobileMenuOpen: !prevState.isMobileMenuOpen
+//     }
+// })}
+
+toggleMobileMenu = () => {
+  console.log(this.state.isMobileMenuOpen)
+  this.setState({isMobileMenuOpen: !this.state.isMobileMenuOpen})
+}
 
   render(){
     return (
